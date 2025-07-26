@@ -1,0 +1,189 @@
+<Defs>
+  <!-- Настенная солнечная панель 1x1 -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>SolarPanelWallSmall</defName>
+    <label>малая настенная солнечная панель</label>
+    <description>Небольшая настенная солнечная панель. Крепится к стене и вырабатывает электроэнергию.</description>
+    <thingClass>WallSolarPanel.Building_SolarPanelWall</thingClass>
+    <rotatable>true</rotatable>
+    <uiIconPath>UI/Icons/SolarPanelWallSmall</uiIconPath>
+    <graphicData>
+      <texPath>Things/Building/WallSolarPanel/SolarPanel_1x1</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <drawOffsetNorth>(0,0,0.15)</drawOffsetNorth>
+      <drawOffsetSouth>(0,0,-0.15)</drawOffsetSouth>
+      <drawOffsetWest>(-0.15,0,0)</drawOffsetWest>
+      <drawOffsetEast>(0.15,0,0)</drawOffsetEast>
+    </graphicData>
+    <size>(1,1)</size>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <passability>Standable</passability>
+    <pathCost>0</pathCost>
+    <terrainAffordanceNeeded IsNull="True" />
+    <overrideMinifiedRot>North</overrideMinifiedRot>
+    
+    <placeWorkers>
+      <li>PlaceWorker_AttachedToWall</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>0</basePowerConsumption>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <designationCategory>Power</designationCategory>
+    <building>
+      <isEdifice>false</isEdifice>
+      <isAttachment>true</isAttachment>
+      <allowWireConnection>true</allowWireConnection>
+    </building>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    
+   
+    <statBases>
+      <WorkToBuild>1000</WorkToBuild>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <uiOrder>2997</uiOrder>
+    <tickerType>Rare</tickerType>
+    <researchPrerequisites>
+      <li>SolarPanels</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Настенная солнечная панель 2x1 -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>SolarPanelWallMedium</defName>
+    <label>средняя настенная солнечная панель</label>
+    <description>Средняя настенная солнечная панель. Крепится к стене и вырабатывает электроэнергию.</description>
+    <thingClass>WallSolarPanel.Building_SolarPanelWall</thingClass>
+    <rotatable>true</rotatable>
+    <uiIconPath>UI/Icons/SolarPanelWallMedium</uiIconPath>
+    <graphicData>
+      <texPath>Things/Building/WallSolarPanel/SolarPanel_2x1</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,1)</drawSize>
+      <drawOffsetNorth>(0,0,0.15)</drawOffsetNorth>
+      <drawOffsetSouth>(0,0,-0.15)</drawOffsetSouth>
+      <drawOffsetWest>(-0.15,0,0)</drawOffsetWest>
+      <drawOffsetEast>(0.15,0,0)</drawOffsetEast>
+    </graphicData>
+    <size>(2,1)</size>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <passability>Standable</passability>
+    <pathCost>0</pathCost>
+    <terrainAffordanceNeeded IsNull="True" />
+    <overrideMinifiedRot>North</overrideMinifiedRot>
+    
+    <placeWorkers>
+      <li>PlaceWorker_AttachedToWall</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>0</basePowerConsumption>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <designationCategory>Power</designationCategory>
+    <building>
+      <isEdifice>false</isEdifice>
+      <isAttachment>true</isAttachment>
+      <allowWireConnection>true</allowWireConnection>
+    </building>
+    <costList>
+      <Steel>80</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    
+    <statBases>
+      <WorkToBuild>1800</WorkToBuild>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <Mass>12</Mass>
+    </statBases>
+    <uiOrder>2998</uiOrder>
+    <tickerType>Rare</tickerType>
+    <researchPrerequisites>
+      <li>SolarPanels</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Настенная солнечная панель 3x1 -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>SolarPanelWallLarge</defName>
+    <label>большая настенная солнечная панель</label>
+    <description>Большая настенная солнечная панель. Крепится к стене и вырабатывает электроэнергию.</description>
+    <thingClass>WallSolarPanel.Building_SolarPanelWall</thingClass>
+    <rotatable>true</rotatable>
+    <uiIconPath>UI/Icons/SolarPanelWallLarge</uiIconPath>
+    <graphicData>
+      <texPath>Things/Building/WallSolarPanel/SolarPanel_3x1</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,1)</drawSize>
+      <drawOffsetNorth>(0,0,0.15)</drawOffsetNorth>
+      <drawOffsetSouth>(0,0,-0.15)</drawOffsetSouth>
+      <drawOffsetWest>(-0.15,0,0)</drawOffsetWest>
+      <drawOffsetEast>(0.15,0,0)</drawOffsetEast>
+    </graphicData>
+    <size>(3,1)</size>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <passability>Standable</passability>
+    <pathCost>0</pathCost>
+    <terrainAffordanceNeeded IsNull="True" />
+    <overrideMinifiedRot>North</overrideMinifiedRot>
+    
+    <placeWorkers>
+      <li>PlaceWorker_AttachedToWall</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>0</basePowerConsumption>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <designationCategory>Power</designationCategory>
+    <building>
+      <isEdifice>false</isEdifice>
+      <isAttachment>true</isAttachment>
+      <allowWireConnection>true</allowWireConnection>
+    </building>
+    <costList>
+      <Steel>120</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    
+    
+    <statBases>
+      <WorkToBuild>2500</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <Mass>16</Mass>
+    </statBases>
+    <uiOrder>2999</uiOrder>
+    <tickerType>Rare</tickerType>
+    <researchPrerequisites>
+      <li>SolarPanels</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

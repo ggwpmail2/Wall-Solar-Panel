@@ -1,0 +1,13 @@
+/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel/Assemblies/obj/Release/net472/SolarPanelWall.csproj.AssemblyReference.cache
+/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel/Assemblies/obj/Release/net472/SolarPanelWall.GeneratedMSBuildEditorConfig.editorconfig
+/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel/Assemblies/obj/Release/net472/SolarPanelWall.AssemblyInfoInputs.cache
+/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel/Assemblies/obj/Release/net472/SolarPanelWall.AssemblyInfo.cs
+/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel/Assemblies/obj/Release/net472/SolarPanelWall.csproj.CoreCompileInputs.cache
+/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel/Assemblies/bin/Release/net472/SolarPanelWall.dll
+/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel/Assemblies/bin/Release/net472/SolarPanelWall.pdb
+/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel/Assemblies/bin/Release/net472/Assembly-CSharp.dll
+/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel/Assemblies/bin/Release/net472/UnityEngine.CoreModule.dll
+/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel/Assemblies/bin/Release/net472/UnityEngine.dll
+/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel/Assemblies/obj/Release/net472/SolarPan.3CA8B2D2.Up2Date
+/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel/Assemblies/obj/Release/net472/SolarPanelWall.dll
+/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel/Assemblies/obj/Release/net472/SolarPanelWall.pdb

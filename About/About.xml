@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>Wall Solar Panel</name>
+  <author>maetak</author>
+  <supportedVersions>        
+	<li>1.6</li>
+</supportedVersions>
+<modVersion>1.0.0</modVersion>
+  <packageId>maetak.WallSolarPanel</packageId>
+  <description>
+  RU
+  Добавляет 3 солнечных панели, которые можно крепить к стенам (по аналогии с настенной лампой). 
+  Открывается с исследованием солнечной панели. Маленькая вырабатывает 300 ватт, средняя 600 ватт, большая 900 ватт.
+  
+  ENG
+  Adds 3 solar panels that can be mounted to the walls. 
+  It opens with a solar panel study. A small one produces 300 watts, an average one 600 watts, and a large one 900 watts.
+  </description>
+
+</ModMetaData> 

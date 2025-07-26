@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SolarPanelWallSmall.label>малая настенная солнечная панель</SolarPanelWallSmall.label>
+  <SolarPanelWallSmall.description>Небольшая настенная солнечная панель. Крепится к стене и вырабатывает электроэнергию в зависимости от освещенности.</SolarPanelWallSmall.description>
+  
+  <SolarPanelWallMedium.label>средняя настенная солнечная панель</SolarPanelWallMedium.label>
+  <SolarPanelWallMedium.description>Средняя настенная солнечная панель. Крепится к стене и вырабатывает электроэнергию в зависимости от освещенности.</SolarPanelWallMedium.description>
+  
+  <SolarPanelWallLarge.label>большая настенная солнечная панель</SolarPanelWallLarge.label>
+  <SolarPanelWallLarge.description>Большая настенная солнечная панель. Крепится к стене и вырабатывает электроэнергию в зависимости от освещенности.</SolarPanelWallLarge.description>
+  
+  <WallSolarPanel.UnderRoof>(Под крышей - выработка отключена)</WallSolarPanel.UnderRoof>
+  <WallSolarPanel.PowerOutput>Power output: {0} W</WallSolarPanel.PowerOutput>
+  <WallSolarPanel.MaxPowerOutput>(Максимум: {0} W)</WallSolarPanel.MaxPowerOutput>
+  <WallSolarPanel.SkyGlow>(Освещенность: {0})</WallSolarPanel.SkyGlow>
+  
+  <MustPlaceAgainstWall>Должно быть размещено у стены.</MustPlaceAgainstWall>
+  <WallSolarPanel.OverlapError>Панель не может перекрывать другую панель.</WallSolarPanel.OverlapError>
+  <WallSolarPanel.NotEnoughSpace>Недостаточно места для размещения панели.</WallSolarPanel.NotEnoughSpace>
+</LanguageData>
