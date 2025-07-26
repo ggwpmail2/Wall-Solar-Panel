@@ -75,7 +75,7 @@ namespace WallSolarPanel
             {
                 if (!cell.Roofed(this.Map))
                 {
-                    return false; 
+                    return false;
                 }
             }
             return true;
@@ -94,11 +94,11 @@ namespace WallSolarPanel
             if (powerComp != null)
             {
                 sb.AppendLine();
-                sb.Append(string.Format("WallSolarPanel.PowerOutput".Translate(), Mathf.Abs(powerComp.PowerOutput).ToString("F0")));
-                sb.Append(" " + string.Format("WallSolarPanel.MaxPowerOutput".Translate(), maxPowerOutput.ToString("F0")));
+                sb.Append("WallSolarPanel.PowerOutput".Translate(Mathf.Abs(powerComp.PowerOutput).ToString("F0")));
+                sb.Append(" " + "WallSolarPanel.MaxPowerOutput".Translate(maxPowerOutput.ToString("F0")));
                 if (this.Map != null)
                 {
-                    sb.Append(" " + string.Format("WallSolarPanel.SkyGlow".Translate(), this.Map.skyManager.CurSkyGlow.ToString("F2")));
+                    sb.Append(" " + "WallSolarPanel.SkyGlow".Translate(this.Map.skyManager.CurSkyGlow.ToString("F2")));
                 }
                 
                 if (IsUnderRoof())
@@ -112,7 +112,7 @@ namespace WallSolarPanel
 
         public override AcceptanceReport ClaimableBy(Faction faction)
         {
-            return false; 
+            return false;
         }
         
         public override bool CanStackWith(Thing other)

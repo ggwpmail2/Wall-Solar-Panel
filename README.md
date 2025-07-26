@@ -1,1 +1,0 @@
-# Wall-Solar-Panel

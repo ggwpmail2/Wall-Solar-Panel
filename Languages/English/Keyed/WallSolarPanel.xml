@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <SolarPanelWallSmall.label>small wall-mounted solar panel</SolarPanelWallSmall.label>
-  <SolarPanelWallSmall.description>A small wall-mounted solar panel. Attaches to walls and generates electricity based on illumination.</SolarPanelWallSmall.description>
-  
-  <SolarPanelWallMedium.label>medium wall-mounted solar panel</SolarPanelWallMedium.label>
-  <SolarPanelWallMedium.description>A medium wall-mounted solar panel. Attaches to walls and generates electricity based on illumination.</SolarPanelWallMedium.description>
-  
-  <SolarPanelWallLarge.label>large wall-mounted solar panel</SolarPanelWallLarge.label>
-  <SolarPanelWallLarge.description>A large wall-mounted solar panel. Attaches to walls and generates electricity based on illumination.</SolarPanelWallLarge.description>
-  
+
   <WallSolarPanel.UnderRoof>(Under roof - power generation disabled)</WallSolarPanel.UnderRoof>
   <WallSolarPanel.PowerOutput>Power output: {0} W</WallSolarPanel.PowerOutput>
   <WallSolarPanel.MaxPowerOutput>(Max: {0} W)</WallSolarPanel.MaxPowerOutput>

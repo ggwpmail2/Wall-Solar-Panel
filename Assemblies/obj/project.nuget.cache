@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EanU7UOZH8M=",
+  "dgSpecHash": "1CaEAUUIY9w=",
   "success": true,
-  "projectFilePath": "/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel/Assemblies/SolarPanelWall.csproj",
+  "projectFilePath": "/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel (git)/Assemblies/SolarPanelWall.csproj",
   "expectedPackageFiles": [
     "/home/themaetak/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
     "/home/themaetak/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.3/microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"

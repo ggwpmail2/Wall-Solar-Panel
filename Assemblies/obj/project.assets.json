@@ -420,11 +420,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel/Assemblies/SolarPanelWall.csproj",
+      "projectUniqueName": "/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel (git)/Assemblies/SolarPanelWall.csproj",
       "projectName": "SolarPanelWall",
-      "projectPath": "/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel/Assemblies/SolarPanelWall.csproj",
+      "projectPath": "/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel (git)/Assemblies/SolarPanelWall.csproj",
       "packagesPath": "/home/themaetak/.nuget/packages/",
-      "outputPath": "/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel/Assemblies/obj/",
+      "outputPath": "/home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel (git)/Assemblies/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/themaetak/.nuget/NuGet/NuGet.Config"

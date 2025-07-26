@@ -1,8 +1,0 @@
-<Defs>
-  <DesignationCategoryDef>
-    <defName>Power</defName>
-    <label>Энергия</label>
-    <description>Постройки, связанные с производством и хранением энергии.</description>
-    <order>200</order>
-  </DesignationCategoryDef>
-</Defs> 

@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = SolarPanelWall
-build_property.ProjectDir = /home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel/Assemblies/
+build_property.ProjectDir = /home/themaetak/dev/rimworld/mods/Expand Solar Panel/Wall Solar Panel (git)/Assemblies/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false
