@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SolarPanelWall")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c205d0ed58dc416e28c979b5a2a6f7f01c47a0b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6c4e91e324fbcfbb9cf335e8941830702899fe3")]
 [assembly: System.Reflection.AssemblyProductAttribute("SolarPanelWall")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SolarPanelWall")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -58,12 +58,12 @@ namespace WallSolarPanel
                     efficiency *= this.Map.weatherManager.curWeather.accuracyMultiplier;
                 }
                 
-                if (this.Map.weatherManager.curWeather.rainRate > 0.1f || 
-                    this.Map.weatherManager.curWeather.snowRate > 0.1f)
-                {
-                    powerComp.PowerOutput = 0f;
-                    return;
-                }
+                // if (this.Map.weatherManager.curWeather.rainRate > 0.1f || 
+                //     this.Map.weatherManager.curWeather.snowRate > 0.1f)
+                // {
+                //     powerComp.PowerOutput = 0f;
+                //     return;
+                // }
                 
                 powerComp.PowerOutput = maxPowerOutput * efficiency;
             }
@@ -80,6 +80,7 @@ namespace WallSolarPanel
             }
             return true;
         }
+
 
         public override void ExposeData()
         {
